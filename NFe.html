@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
+            rel="stylesheet"
+        />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title titulo>BankMe | NFe</title>
+        <link rel="shortcut icon" href="frontend/assets/imagens/favicon Bankme.svg" type="image/x-icon">
+        <link rel="stylesheet" href="frontend/assets/css/base/reset.css" />
+        <link rel="stylesheet" href="frontend/assets/css/base/normalize.css" />
+        <link rel="stylesheet" href="frontend/assets/css/base/main.css" />
+        <link rel="stylesheet" href="frontend/assets/css/telaNFe/telaNFe.css" />
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+            integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+            crossorigin="anonymous"
+        ></script>
+    </head>
+
+    <body main-corpo>
+        <main class="principal">
+            <section class="telaNFe">
+                <table class="table"  data-tabela>
+                    <thead>
+                        <tr class="table__head">
+                            <th class="head__itens" rowspan="2">
+                                Data de Emissão
+                            </th>
+                            <th class="head__itens" colspan="2">Emitente</th>
+                            <th class="head__itens" colspan="2">
+                                Destinatário
+                            </th>
+                            <th class="head__itens" rowspan="2">Valor Total</th>
+                        </tr>
+                        <tr class="table__head">
+                            <td class="head__itens">Nome</td>
+                            <td class="head__itens">CNPJ</td>
+                            <td class="head__itens">Nome</td>
+                            <td class="head__itens">CNPJ</td>
+                            <td></td>
+                        </tr>
+                    </thead>
+                    <tbody body-itens></tbody>
+                </table>
+                <form id="form" class="form" data-form>
+                    <input
+                        class="botao"
+                        type="file"
+                        accept=".xml"
+                        name="file"
+                        id="file"
+                        required
+                        file-input
+                    />
+                    <button
+                        type="submit"
+                        class="botao"
+                        id="upload-button"
+                        send-button
+                    >
+                        Upload
+                    </button>
+                </form>
+            </section>
+        </main>
+    </body>
+    
+    <script type="module" src="frontend/assets/js/NFe.js"></script>
+</html>

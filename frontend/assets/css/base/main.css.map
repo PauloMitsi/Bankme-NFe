@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,KAAK;EAEb,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EAEnB,gBAAgB,ECRN,OAAO;EDSjB,WAAW,EAAE,YAAY;CAC5B",
+    "sources": [
+        "main.scss",
+        "../constantes/_cores.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

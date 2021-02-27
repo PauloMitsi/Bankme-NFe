@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
+            rel="stylesheet"
+        />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title titulo>BankMe | NFe</title>
+
+        <link rel="shortcut icon" href="frontend/assets/imagens/favicon Bankme.svg" type="image/x-icon">
+        <link rel="stylesheet" href="frontend/assets/css/base/reset.css" />
+        <link rel="stylesheet" href="frontend/assets/css/base/normalize.css" />
+        <link rel="stylesheet" href="frontend/assets/css/base/main.css" />
+
+        <link rel="stylesheet" href="frontend/assets/css/signup/signup.css" estilo>
+    </head>
+
+    <body main-corpo>
+
+         <main class="principal">
+            <section class="signup">
+        <img
+            src="frontend/assets/imagens/logo-bankme.png"
+            alt="logo BankMe"
+            width="200px"
+        />
+    
+        <form class="signup__sessao">
+            <input
+                type="text"
+                class="sessao__Input"
+                placeholder="Email"
+                required
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}"
+                signup-email
+            />
+            <input
+                type="password"
+                name="senha"
+                class="sessao__Input"
+                placeholder="Password"
+                required    
+                signup-senha
+            />
+            <input
+                type="password"
+                name="Confirm senha"
+                class="sessao__Input"
+                placeholder="Confirm Password"
+                required
+
+                signup-confirmaSenha
+            />
+            <a href="index.html" class='login' data-link>Already have an account.</a>
+            <div class="signup__button">
+                
+                    <input
+                        type="submit"
+                        class="login__botaoSignUp"
+                        value="Sign Up"
+                        
+                        data-botao
+                    >
+                    </input>
+            
+                
+            </div>
+        </form>
+            </section>
+        </main>   
+    </body>
+
+    <script type="module" src="frontend/assets/js/signup.js"></script>
+    
+</html>

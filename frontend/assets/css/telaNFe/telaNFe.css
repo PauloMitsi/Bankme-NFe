@@ -1,0 +1,62 @@
+.telaNFe {
+  background: -webkit-gradient(linear, left top, left bottom, from(#2c3340), to(#0b1926));
+  background: linear-gradient(#2c3340, #0b1926);
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.telaNFe .table {
+  text-align: center;
+}
+
+.telaNFe .table .table__head {
+  background-color: #03658C;
+}
+
+.telaNFe .table .table__head .head__itens {
+  vertical-align: middle;
+  border: solid black 2px;
+  padding: 1.5rem;
+  font-weight: 700;
+  color: #f2f2f2;
+}
+
+.telaNFe .table .table__body {
+  background-color: #2c3340;
+}
+
+.telaNFe .table .table__body .body__itens {
+  vertical-align: middle;
+  border: solid black 2px;
+  padding: 1.5rem;
+  color: #f2f2f2;
+}
+
+.telaNFe .form {
+  margin-top: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.telaNFe .form .botao {
+  width: 40%;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 1rem;
+  border: #03658C 0.1rem solid;
+  border-radius: 0.5rem;
+  color: #03658C;
+  background: none;
+  outline: none;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+.telaNFe .form .botao:focus {
+  background-color: #171b22;
+}
+/*# sourceMappingURL=telaNFe.css.map */

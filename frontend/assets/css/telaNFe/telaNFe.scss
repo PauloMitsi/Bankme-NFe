@@ -1,0 +1,59 @@
+@import '../constantes/cores';
+
+.telaNFe {
+    background: linear-gradient($azul-umpoucoescuro, $azul-escuro);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    .table {
+        text-align: center;
+        .table__head {
+            background-color: $azul-claro;
+            .head__itens {
+                vertical-align: middle;
+                border: solid black 2px;
+                padding: 1.5rem;
+
+                font-weight: 700;
+                color: $branco;
+            }
+        }
+
+        .table__body {
+            background-color: $azul-umpoucoescuro;
+
+            .body__itens {
+                vertical-align: middle;
+                border: solid black 2px;
+                padding: 1.5rem;
+                color: $branco;
+            }
+        }
+    }
+    .form{
+        margin-top: 1.5rem;
+        display: flex;
+        justify-content: space-evenly;
+        .botao{
+            width: 40%;
+            font-weight: 400;
+
+            cursor: pointer;
+            padding: 1rem;
+
+            border: $azul-claro 0.1rem solid;
+            border-radius: 0.5rem;
+
+            color: $azul-claro;
+            background: none;
+            outline: none;
+
+            transition: .1s;
+            &:focus {
+                background-color: darken(
+                    $color: $azul-umpoucoescuro,
+                    $amount: 10
+                );
+            }
+        }
+    }
+}
