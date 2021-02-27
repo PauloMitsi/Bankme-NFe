@@ -40,7 +40,7 @@
 
 - este é o resultado:
 
-![tela de Notafiscal](frontend/assets/imagens/TelaNFe.png)
+![tela de Notafiscal](frontend/assets/imagens/telaNFe.png)
 
 
 - Agora faça o upload do arquivo e clique em upload.
